@@ -16,6 +16,7 @@ resource "aws_vpc" "example" {
 
   tags = {
     Project = var.project_tag
+    Env = "dev"
   }
 }
 
